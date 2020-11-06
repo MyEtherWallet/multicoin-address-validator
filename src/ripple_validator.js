@@ -1,4 +1,4 @@
-var cryptoUtils = require('./crypto/utils');
+var cryptoUtils = require('./crypto/utils.js');
 var baseX = require('base-x');
 
 var ALLOWED_CHARS = 'rpshnaf39wBUDNEGHJKLM4PQRST7VWXYZ2bcdeCg65jkm8oFqi1tuvAxyz';

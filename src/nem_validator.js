@@ -1,4 +1,4 @@
-var cryptoUtils = require('./crypto/utils');
+var cryptoUtils = require('./crypto/utils.js');
 
  /**
 * Check if an address is valid

@@ -1,4 +1,4 @@
-var currencies = require('./currencies');
+var currencies = require('./currencies.js');
 
 var DEFAULT_CURRENCY_NAME = 'bitcoin';
 

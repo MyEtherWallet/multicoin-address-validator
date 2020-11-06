@@ -1,6 +1,6 @@
 var baseX = require('base-x');
 var crc = require('crc');
-var cryptoUtils = require('./crypto/utils');
+var cryptoUtils = require('./crypto/utils.js');
 
  var ALPHABET = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ234567';
 

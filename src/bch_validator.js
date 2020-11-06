@@ -1,6 +1,6 @@
-var cryptoUtils = require('./crypto/utils');
-var bech32 = require('./crypto/bech32');
-var BTCValidator = require('./bitcoin_validator');
+var cryptoUtils = require('./crypto/utils.js');
+var bech32 = require('./crypto/bech32.js');
+var BTCValidator = require('./bitcoin_validator.js');
 
 function validateAddress(address, currency, opts) {
     var networkType = opts ? opts.networkType : ''

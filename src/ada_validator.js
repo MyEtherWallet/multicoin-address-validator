@@ -1,7 +1,7 @@
 var cbor = require('cbor-js');
 var CRC = require('crc');
-var base58 = require('./crypto/base58');
-var bech32 = require('./crypto/bech32');
+var base58 = require('./crypto/base58.js');
+var bech32 = require('./crypto/bech32.js');
 
 function getDecoded(address) {
     try {

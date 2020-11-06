@@ -1,5 +1,5 @@
-var BTCValidator = require('./bitcoin_validator');
-var ETHValidator = require('./ethereum_validator');
+var BTCValidator = require('./bitcoin_validator.js');
+var ETHValidator = require('./ethereum_validator.js');
 
 function checkBothValidators(address, currency, networkType) {
     var result = BTCValidator.isValidAddress(address, currency, networkType);

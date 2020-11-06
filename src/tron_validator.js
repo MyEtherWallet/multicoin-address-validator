@@ -1,4 +1,4 @@
-var cryptoUtils = require('./crypto/utils');
+var cryptoUtils = require('./crypto/utils.js');
 
 function decodeBase58Address(base58Sting) {
     if (typeof (base58Sting) !== 'string') {

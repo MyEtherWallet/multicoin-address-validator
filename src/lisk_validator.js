@@ -1,4 +1,4 @@
-var cryptoUtils = require('./crypto/utils');
+var cryptoUtils = require('./crypto/utils.js');
 
 var regexp = new RegExp('^[0-9]{1,20}L$');
 

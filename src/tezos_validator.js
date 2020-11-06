@@ -1,5 +1,5 @@
-const base58 = require('./crypto/base58');
-const cryptoUtils = require('./crypto/utils');
+const base58 = require('./crypto/base58.js');
+const cryptoUtils = require('./crypto/utils.js');
 
 const prefix = new Uint8Array([6, 161, 159]);
 

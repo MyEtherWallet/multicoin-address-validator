@@ -1,5 +1,5 @@
-var cryptoUtils = require('./crypto/utils')
-var cnBase58 = require('./crypto/cnBase58')
+var cryptoUtils = require('./crypto/utils.js')
+var cnBase58 = require('./crypto/cnBase58.js')
 
 var DEFAULT_NETWORK_TYPE = 'prod'
 var addressRegTest = new RegExp(
