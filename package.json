@@ -245,7 +245,7 @@
         "crc": "^3.8.0",
         "jssha": "^3.1.2",
         "lodash.isequal": "^4.5.0",
-        "minify": "^6.0.0"
+        "minify": "^5.2.0"
     },
     "devDependencies": {
         "browserify": "^16.5.2",
