@@ -18,7 +18,7 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-var bech32 = require('./bech32');
+var bech32 = require('./bech32.js');
 
 var DEFAULT_NETWORK_TYPE = 'prod'
 
